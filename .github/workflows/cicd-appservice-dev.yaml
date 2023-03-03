@@ -86,6 +86,6 @@ jobs:
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.WORKFLOW_TOKEN }}
-        repository: bunchapa/bunchapa-pipeline
+        repository: bunchapa/user27-pipeline
         event-type: bunchapa-tutorial-be-cd-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
