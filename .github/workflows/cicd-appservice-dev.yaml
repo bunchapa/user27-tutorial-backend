@@ -80,7 +80,7 @@ jobs:
     needs: [unitest,analyze]
     environment:
       name: dev
-      url: https://github.com/bunchapa/bunchapa-pipeline/actions/workflows/dev-tutorial-backend-deploy.yml
+      url: https://github.com/bunchapa/user27-pipeline/actions/workflows/dev-tutorial-backend-deploy.yml
     steps:
     - name: Repository Dispatch
       uses: peter-evans/repository-dispatch@v1
