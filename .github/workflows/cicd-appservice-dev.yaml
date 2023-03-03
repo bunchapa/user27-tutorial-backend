@@ -87,5 +87,5 @@ jobs:
       with:
         token: ${{ secrets.WORKFLOW_TOKEN }}
         repository: bunchapa/user27-pipeline
-        event-type: bunchapa-tutorial-be-cd-dev
+        event-type: user27-tutorial-be-cd-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
